@@ -45,7 +45,6 @@ public class MyListFragment extends Fragment {
         }
     }
 
-    // triggers update of the details fragment
     public void updateDetail(String uri) {
         // create fake data
         String newTime = String.valueOf(System.currentTimeMillis());
