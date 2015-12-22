@@ -15,9 +15,9 @@ public class DetailFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_news_detail,
-                container, false);
-        return view;
+        // TODO Inflar el layout del Fragment de detalle, luego retornar esa vista
+        // TODO (En lugar del null)
+        return null;
     }
 
     public void setText(String url) {

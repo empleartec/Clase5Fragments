@@ -18,8 +18,9 @@ public class MyListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_news_list,
-                container, false);
+        // TODO Inflar el layout del Fragment de "Lista", luego usar esa vista
+        // TODO (En lugar del null a continuación..)
+        View view = null;
         Button button = (Button) view.findViewById(R.id.button1);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,9 +47,9 @@ public class MyListFragment extends Fragment {
     }
 
     public void updateDetail(String uri) {
-        // create fake data
+        // crear informacion falsa
         String newTime = String.valueOf(System.currentTimeMillis());
-        // send data to activity
+        // enviarla al activity
         listener.onRssItemSelected(newTime);
     }
 }

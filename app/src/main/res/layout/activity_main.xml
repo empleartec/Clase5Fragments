@@ -11,10 +11,11 @@
         android:layout_weight="1"
         android:layout_height="match_parent"
         class="com.mobaires.curso.lectordenoticias.MyListFragment"/>
-    <fragment
-        android:id="@+id/detailFragment"
-        android:layout_width="0dp"
-        android:layout_weight="2"
-        android:layout_height="match_parent"
-        class="com.mobaires.curso.lectordenoticias.DetailFragment"/>
+
+    <!-- TODO falta un Fragment más con:
+        id 'detailFragment'
+        width 0dp weight 2 (queremos que sea el doble de grande que el fragment listFragment
+        height match parent
+        y clase, DetailFragment.. aunque se usa el nombre completo
+    -->
 </LinearLayout>
